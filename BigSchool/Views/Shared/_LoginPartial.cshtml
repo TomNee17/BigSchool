@@ -6,10 +6,39 @@
     @Html.AntiForgeryToken()
 
     <ul class="navbar-nav navbar-right">
+        @*
+            <li class="dropdown">
+                <a href="#" class=" dropdown-toggle" >
+                    @User.Identity.GetUserName()
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="@Url.Action("Mine","Courses")">My Upcoming Courses</a></li>
+                    <li><a href="@Url.Action("Attending","Courses")">Courses I'm Going</a></li>
+                    <li><a href="@Url.Action("Following","Courses")">Lecture I'm Flowing</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="javascript:document.getElementById('logoutForm').submit()">Log off</a></li>
+                </ul>
+            </li>*@
+
+        <li><a class="nav-link" href="@Url.Action("Mine","Courses")">My Upcoming Courses</a></li>
+
+        <li><a class="nav-link" href="@Url.Action("Attending","Courses")">Courses I'm Going</a></li>
+
+        <li><a class="nav-link" href="@Url.Action("Following","Courses") ">Lecture I'm Flowing</a></li>
+
+        <li role="separator" class="divider"></li>
         <li>
-            @Html.ActionLink("Hello " + User.Identity.GetUserName() + "!", "Index", "Manage", routeValues: null, htmlAttributes: new { title = "Manage", @class="nav-link" })
+            <a class="nav-link" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                @User.Identity.GetUserName()
+            </a>
         </li>
         <li><a class="nav-link" href="javascript:document.getElementById('logoutForm').submit()">Log off</a></li>
+        @*
+            <li>
+                @Html.ActionLink("Hello " + User.Identity.GetUserName() + "!", "Index", "Manage", routeValues: null, htmlAttributes: new { title = "Manage", @class="nav-link" })
+            </li>
+            <li><a class="nav-link" href="javascript:document.getElementById('logoutForm').submit()">Log off</a></li>
+        *@
     </ul>
     }
 }
