@@ -111,3 +111,4 @@ E:\BigSchool\BigSchool\obj\Debug\BigSchool.csproj.GenerateResource.cache
 E:\BigSchool\BigSchool\obj\Debug\BigSchool.Migrations.TaoBangCourse.resources
 E:\BigSchool\BigSchool\obj\Debug\BigSchool.Migrations.PopulateCategoryTable.resources
 E:\BigSchool\BigSchool\obj\Debug\BigSchool.Migrations.AddNameColumnToApplicationUser.resources
+E:\BigSchool\BigSchool\obj\Debug\BigSchool.Migrations.AddAttendance.resources
