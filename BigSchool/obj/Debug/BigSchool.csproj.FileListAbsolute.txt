@@ -112,3 +112,10 @@ E:\BigSchool\BigSchool\obj\Debug\BigSchool.Migrations.TaoBangCourse.resources
 E:\BigSchool\BigSchool\obj\Debug\BigSchool.Migrations.PopulateCategoryTable.resources
 E:\BigSchool\BigSchool\obj\Debug\BigSchool.Migrations.AddNameColumnToApplicationUser.resources
 E:\BigSchool\BigSchool\obj\Debug\BigSchool.Migrations.AddAttendance.resources
+E:\BigSchool\BigSchool\bin\System.Net.Http.Formatting.dll
+E:\BigSchool\BigSchool\bin\System.Web.Http.dll
+E:\BigSchool\BigSchool\bin\System.Web.Http.WebHost.dll
+E:\BigSchool\BigSchool\bin\System.Net.Http.Formatting.xml
+E:\BigSchool\BigSchool\bin\System.Web.Http.xml
+E:\BigSchool\BigSchool\bin\System.Web.Http.WebHost.xml
+E:\BigSchool\BigSchool\obj\Debug\BigSchool.Migrations.AddFollowingDto.resources

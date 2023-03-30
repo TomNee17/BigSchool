@@ -9,7 +9,8 @@ namespace BigSchool.Models
 {
     public class Course
     {
-        public int Id { get; set; } 
+        public int Id { get; set; }
+        public bool IsCanceled { get; set; }
         public ApplicationUser Lecturer { get; set; }
         [Required]
         public string LecturerId { get; set; }
@@ -17,8 +18,10 @@ namespace BigSchool.Models
         [StringLength(255)]
         public string Place { get; set; }
         public DateTime DateTime { get; set; }
-        public  Category Category { get; set; }
+        public Category Category { get; set; }
         [Required]
         public byte CategoryId { get; set; }
+
     }
+
 }
